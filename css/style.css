@@ -1,0 +1,263 @@
+* {
+    font-family: 思源黑體 , 微軟正黑體 , 蘋方黑體 , 華康麗黑體 , Helvetica , Arial , sans-serif , serif;
+}
+
+#name {
+    text-align: left;
+    padding-left: 5px;
+    display: inline-block;
+    line-height: 1.25
+    }
+
+#cn {
+    font-weight:3000;
+    font-size: 50px;
+}
+
+#en {
+    color: #656d76;
+    font-style:normal;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+a.contact-herf {
+    font-size: 1px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    cursor: pointer;
+    vertical-align: middle;
+    padding-left: 5px;
+    
+}
+
+a.contact-herf:hover {
+    color: rgba(20, 29, 193, 0.893);
+    text-decoration:underline;
+    display: inline-block;
+    
+}
+
+img.profile {
+    border: 1px solid #c1bebed8;
+    border-radius:  100%;
+    border-radius:  4px, 100%;
+    width: 100%;
+}
+
+img.icon {
+    vertical-align: middle;
+}
+
+hr.new1 {
+    border: 1px solid black;
+    }
+
+hr.new2 {
+    border: 1px solid lightgrey;
+}
+
+li.contact {
+    float: none;
+    padding-left: 1px;
+    margin-left: -40px;
+    list-style-type: none;
+    text-align: left;
+    vertical-align: middle;
+    }
+
+a.contact-herf {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.icon {
+    width: 20px
+}
+
+div.skill {
+    vertical-align: middle;
+}
+
+span.name {
+    font-size: 18px;
+    line-height: 10px;
+    font-weight: 1000;
+}
+
+span.level {
+    font-size: 16px;
+    color:rgba(122, 123, 132, 0.893);
+    padding-left: 10px;
+    line-height: 35px;
+}
+
+div.container {
+  width: 100%;
+  border-radius:  10px;
+  box-sizing: content-box;
+  background-color: #ddd;
+  vertical-align: text-top;
+  --bar-height: 15px;
+  height: var(--bar-height);
+}
+
+div.bar {
+    border-radius:  10px;
+    height: 100%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1px;
+    color: white;
+    line-height: var(--bar-height);
+    word-break: keep-all;
+}
+
+div.html {
+    width: 15%;
+    background-color: rgb(112, 173, 71);
+    }
+
+div.css {
+    width: 10%;
+    background-color: rgb(214, 113, 98);
+    }
+    
+div.js {
+    width: 65%;
+    background-color: #f44336;
+    }
+
+div.python {
+    width: 85%;
+    background-color: rgb(68, 114, 196);
+    }
+    
+div.cplusplus {
+    width: 70%;
+    background-color: rgb(255, 192, 0);
+    }
+
+div.javascript {
+    width: 10%;
+    background-color: rgb(118, 47, 205);
+    }
+
+div.java {
+    width: 30%;
+    background-color: rgb(91, 155, 213);
+    }
+    
+div.webcrawling {
+    width: 80%;
+    background-color: rgb(237, 125, 49);
+    }
+
+span.at {
+    color: #656d76;
+    font-size: 20px;
+}
+
+span.place {
+    color: #656d76;
+}
+
+h3.date {
+    vertical-align: middle;
+}
+
+h2.job-name {
+    font-weight: 1000;
+}
+
+img.data-icon {
+    padding-right: 5px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+div.education {
+    line-height: 1.25
+}
+
+span.en {
+    font-size: 18px;
+    color: #828b96;
+    font-weight: 500;
+}
+
+div.experience, div.education {
+    padding: 0.01em 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 16px;
+}
+
+div#left {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 16px;
+    padding: 0.01em 16px;
+    padding-top: 10px;
+    margin-bottom: 16px;
+}
+
+div#top-left {
+    float: left;
+    width: 25%;
+}
+
+div#top-right {
+    float: left;
+    width: 75%;
+}
+
+div#top-all {
+    max-width: 1400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    word-break: break-all;
+}
+
+@media (max-width: 800px){
+    div#top-left{
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+
+    div#top-right {
+        float: right;
+        width: 100%;
+        margin: auto;
+    }
+
+    div#left {
+        float: none;
+        width: 90%;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+        margin: auto;
+        padding: 0.01em 16px;
+        padding-top: 10px;
+        margin-bottom: 16px;
+    }
+
+    div.experience, div.education {
+        float: none;
+        width: 90%;
+        padding: 0.01em 16px;
+        margin: auto;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        margin-bottom: 16px;
+    }
+
+    img.profile {
+        border: 1px solid #c1bebed8;
+        border-radius:  100%;
+        border-radius:  4px , 100%;
+        width: 50%;
+    }
+}
