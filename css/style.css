@@ -260,4 +260,8 @@ div#top-all {
         border-radius:  4px , 100%;
         width: 50%;
     }
+
+    div.bar {
+        font-size: 10px;
+    }
 }
