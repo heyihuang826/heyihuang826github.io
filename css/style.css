@@ -43,7 +43,10 @@ img.profile {
     border: 1px solid #c1bebed8;
     border-radius:  100%;
     border-radius:  4px, 100%;
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 img.icon {
@@ -115,18 +118,13 @@ div.bar {
 }
 
 div.html {
-    width: 15%;
+    width: 20%;
     background-color: rgb(112, 173, 71);
     }
 
 div.css {
-    width: 10%;
+    width: 15%;
     background-color: rgb(214, 113, 98);
-    }
-    
-div.js {
-    width: 65%;
-    background-color: #f44336;
     }
 
 div.python {
@@ -140,7 +138,7 @@ div.cplusplus {
     }
 
 div.javascript {
-    width: 10%;
+    width: 15%;
     background-color: rgb(118, 47, 205);
     }
 
@@ -196,19 +194,20 @@ div.experience, div.education {
 div#left {
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
     margin-right: 16px;
-    padding: 0.01em 16px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 10px;
     margin-bottom: 16px;
 }
 
 div#top-left {
     float: left;
-    width: 25%;
+    width: 28%;
 }
 
 div#top-right {
     float: left;
-    width: 75%;
+    width: 72%;
 }
 
 div#top-all {
@@ -259,6 +258,8 @@ div#top-all {
         border-radius:  100%;
         border-radius:  4px , 100%;
         width: 50%;
+        display: block;
+        margin-left: 0px;
     }
 
     div.bar {
